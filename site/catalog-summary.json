@@ -1,0 +1,99 @@
+{
+  "catalogs": {
+    "full": {
+      "title": "完整模考",
+      "testIds": [
+        "mock-50",
+        "mock-49",
+        "mock-48",
+        "mock-47",
+        "mock-46",
+        "mock-45",
+        "mock-44",
+        "mock-43",
+        "mock-42",
+        "mock-41",
+        "mock-40",
+        "mock-39",
+        "mock-38",
+        "mock-37",
+        "mock-36",
+        "mock-35",
+        "mock-34",
+        "mock-33",
+        "mock-32",
+        "mock-31"
+      ],
+      "section": null,
+      "range": "Mock 31—50"
+    },
+    "speaking": {
+      "title": "口语新题",
+      "testIds": [
+        "mock-70",
+        "mock-69",
+        "mock-68",
+        "mock-67",
+        "mock-66",
+        "mock-65",
+        "mock-64",
+        "mock-63",
+        "mock-62",
+        "mock-61",
+        "mock-60",
+        "mock-59",
+        "mock-58",
+        "mock-57",
+        "mock-56",
+        "mock-55",
+        "mock-54",
+        "mock-53",
+        "mock-52",
+        "mock-51"
+      ],
+      "section": "speaking",
+      "range": "Mock 51—70"
+    },
+    "writing": {
+      "title": "写作新题",
+      "testIds": [
+        "mock-70",
+        "mock-69",
+        "mock-68",
+        "mock-67",
+        "mock-66",
+        "mock-65",
+        "mock-64",
+        "mock-63",
+        "mock-62",
+        "mock-61",
+        "mock-60",
+        "mock-59",
+        "mock-58",
+        "mock-57",
+        "mock-56",
+        "mock-55",
+        "mock-54",
+        "mock-53",
+        "mock-52",
+        "mock-51"
+      ],
+      "section": "writing",
+      "range": "Mock 51—70"
+    }
+  },
+  "meta": {
+    "retrievedAt": "2026-11-14T17:02:52.860Z",
+    "totalItems": 2860,
+    "questionGroups": 2320,
+    "sectionItems": {
+      "reading": 1000,
+      "listening": 940,
+      "speaking": 440,
+      "writing": 480
+    },
+    "ordering": "原站编号倒序",
+    "localMedia": 301,
+    "onlineMedia": 1325
+  }
+}

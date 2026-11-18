@@ -1,0 +1,1643 @@
+{
+  "meta": {
+    "source": "LP真题_90组_实际频次排序.pdf",
+    "rawRecords": 259,
+    "groupedRecords": 258,
+    "ungroupedRecords": 1,
+    "groupCount": 90,
+    "sentenceCount": 630,
+    "variantGroups": 50,
+    "distribution": {
+      "1": 32,
+      "2": 12,
+      "3": 16,
+      "4": 12,
+      "5": 8,
+      "6": 6,
+      "7": 3,
+      "9": 1
+    }
+  },
+  "groups": [
+    {
+      "rank": 1,
+      "firstRecordedDate": "2026-07-29",
+      "title": "Museum Tour",
+      "id": "G041",
+      "frequency": 9,
+      "firstRecordIndex": 56,
+      "hasVariants": true,
+      "sentences": [
+        "Ancient artifacts are in the first section.",
+        "Modern art is displayed in this location.",
+        "Our learning labs are known to be engaging for all ages.",
+        "Visit the cafe for tasty refreshments during your tour.",
+        "The gift shop has unique souvenirs for affordable prices.",
+        "Guided tours are only available by reservation each weekend.",
+        "If you are interested in special events, check the map for more details."
+      ]
+    },
+    {
+      "rank": 2,
+      "firstRecordedDate": "2026-09-05",
+      "title": "Campus Coffee Shop",
+      "id": "G008",
+      "frequency": 7,
+      "firstRecordIndex": 8,
+      "hasVariants": true,
+      "sentences": [
+        "We serve coffee and tea at the main counter.",
+        "Our pastries are all made fresh daily.",
+        "The menu board lists drinks that include a range of herbal teas.",
+        "Milk, cream, and sugar are available at the station.",
+        "Dispose of trash and recyclables in the bins near the door.",
+        "Some tables in the seating area offer excellent views of campus.",
+        "Free Wi-Fi is available for campus visitors as well as students."
+      ]
+    },
+    {
+      "rank": 3,
+      "firstRecordedDate": "2026-08-15",
+      "title": "Fitness Center",
+      "id": "G029",
+      "frequency": 7,
+      "firstRecordIndex": 35,
+      "hasVariants": true,
+      "sentences": [
+        "Cardio machines and bikes are over here.",
+        "The weight room provides dumbbells and benches.",
+        "Our yoga studio offers classes for all fitness levels.",
+        "Locker rooms contain storage bins and changing facilities.",
+        "Enjoy our smoothie bar and sample nutritious drinks and snacks.",
+        "Personal trainers are available for individual guidance.",
+        "Before you leave, check the gym floor plan for specific areas and equipment."
+      ]
+    },
+    {
+      "rank": 4,
+      "firstRecordedDate": "2026-07-29",
+      "title": "Media Studio",
+      "id": "G042",
+      "frequency": 7,
+      "firstRecordIndex": 59,
+      "hasVariants": true,
+      "sentences": [
+        "Set the camera to record video.",
+        "The lighting rig eliminates shadows.",
+        "Position the microphone for clear audio capture.",
+        "Edit your photos easily using the latest advanced software.",
+        "The green screen can help you create any background you want.",
+        "The master control panel is used to manage all studio equipment.",
+        "If you need to record with no outside noise, you should use the soundproof room."
+      ]
+    },
+    {
+      "rank": 5,
+      "firstRecordedDate": "2026-09-13",
+      "title": "Birdwatching Basics",
+      "id": "G001",
+      "frequency": 6,
+      "firstRecordIndex": 1,
+      "hasVariants": true,
+      "sentences": [
+        "Look toward the treetops where you can find nests.",
+        "Note details to help identify the bird.",
+        "Keep a record of each sighting to share later with the group.",
+        "Use proper footwear to keep from slipping while exploring outdoors.",
+        "Keep your head covered to protect yourself from the sun on the walk.",
+        "When getting ready for a day out, be sure to pack essentials to be prepared.",
+        "If you spot a bird nearby, avoid sudden movements so it does not fly away."
+      ]
+    },
+    {
+      "rank": 6,
+      "firstRecordedDate": "2026-09-05",
+      "title": "Waste Sorting",
+      "id": "G007",
+      "frequency": 6,
+      "firstRecordIndex": 7,
+      "hasVariants": true,
+      "sentences": [
+        "Put all paper items into the blue bin.",
+        "Glass bottles belong in the green container.",
+        "The yellow receptacle is only for plastic bottles.",
+        "Non-recyclable materials must go into the trash.",
+        "Compost leftover food to help reduce the waste in landfills.",
+        "Always read the posted signs to make sure you sort all items correctly.",
+        "You can download our app for updates about policy or procedure changes."
+      ]
+    },
+    {
+      "rank": 7,
+      "firstRecordedDate": "2026-08-30",
+      "title": "Clothing Store",
+      "id": "G013",
+      "frequency": 6,
+      "firstRecordIndex": 13,
+      "hasVariants": false,
+      "sentences": [
+        "The women's clothing section is this way.",
+        "Our men's corner has shirts, trousers, and jackets.",
+        "Our accessories are on display near the entrance.",
+        "Fitting rooms are available here for trying on clothes.",
+        "The checkout for payment is by the exit when you're ready.",
+        "Ask the store associates if you need help locating specific items.",
+        "If you get lost, check the store map for the layout and location of departments."
+      ]
+    },
+    {
+      "rank": 8,
+      "firstRecordedDate": "2026-08-30",
+      "title": "Botanical Garden Care",
+      "id": "G014",
+      "frequency": 6,
+      "firstRecordIndex": 14,
+      "hasVariants": false,
+      "sentences": [
+        "Water the trees daily to help them grow.",
+        "Add nutrients to the flower bed dirt.",
+        "Manage temperature and humidity inside the greenhouse.",
+        "Do not use chemicals near the pond to protect the creatures there.",
+        "Recycle waste in the compost pile to create rich soil.",
+        "After you finish gardening, put the tools in the shed so others can use them.",
+        "When guests arrive, show them to the visitor center to learn about the garden."
+      ]
+    },
+    {
+      "rank": 9,
+      "firstRecordedDate": "2026-08-22",
+      "title": "Travel Bookings",
+      "id": "G022",
+      "frequency": 6,
+      "firstRecordIndex": 24,
+      "hasVariants": true,
+      "sentences": [
+        "Start with the customer's travel dates.",
+        "Suggest flights that match their traveling times.",
+        "Propose lodgings that fit their budget and are close to attractions.",
+        "Offer travel insurance options to give clients peace of mind.",
+        "Recommend guided tours that highlight the local culture.",
+        "Before booking the reservation, go over the details with the client.",
+        "When customers are ready to pay, process the payment to confirm their booking."
+      ]
+    },
+    {
+      "rank": 10,
+      "firstRecordedDate": "2026-07-22",
+      "title": "National Park",
+      "id": "G047",
+      "frequency": 6,
+      "firstRecordIndex": 71,
+      "hasVariants": true,
+      "sentences": [
+        "Our hiking trails offer scenic routes.",
+        "Make a stop at the Visitor Center.",
+        "Many outdoor campsites are available for overnight stays.",
+        "Picnic areas are great for family gatherings.",
+        "Wildlife viewing spots are ideal for observing animals.",
+        "Guided tours and educational programs are available by request.",
+        "As always, be sure to take the map with you on your nature walks and adventures."
+      ]
+    },
+    {
+      "rank": 11,
+      "firstRecordedDate": "2026-09-13",
+      "title": "Salad Preparation",
+      "id": "G002",
+      "frequency": 5,
+      "firstRecordIndex": 2,
+      "hasVariants": true,
+      "sentences": [
+        "Begin by washing the vegetables.",
+        "carefully chop the salad ingredients.",
+        "Collect the chopped vegetables and place them together.",
+        "Slowly add the dressing so the salad does not get soggy.",
+        "Toss everything together thoroughly so the flavors are mixed.",
+        "Put any leftovers in a food container and place them in the fridge for later.",
+        "When you are finished, be sure to clean up so the kitchen stays neat and clean."
+      ]
+    },
+    {
+      "rank": 12,
+      "firstRecordedDate": "2026-09-12",
+      "title": "Campus Art Gallery",
+      "id": "G005",
+      "frequency": 5,
+      "firstRecordIndex": 5,
+      "hasVariants": true,
+      "sentences": [
+        "Visitors should enter through the front.",
+        "Tickets can be purchased at reception.",
+        "You can leave your belongings in the coat check room free of charge.",
+        "Each piece in the Modern Art Hall is labeled with details.",
+        "Our photography exhibit features work by student artists.",
+        "Restrooms are located in the corner of the gallery near the exit.",
+        "Our Cafe offers coffee, tea, and a variety of sandwiches and treats."
+      ]
+    },
+    {
+      "rank": 13,
+      "firstRecordedDate": "2026-09-06",
+      "title": "Pet Store",
+      "id": "G006",
+      "frequency": 5,
+      "firstRecordIndex": 6,
+      "hasVariants": true,
+      "sentences": [
+        "We sell food for all types of animals.",
+        "Our toy section offers fun items to play with.",
+        "Grooming supplies include shampoos, brushes and nail clippers.",
+        "There are habitats for fish, reptiles, and many other pets.",
+        "The checkout is conveniently located near the store exit.",
+        "Ask any associate for assistance with locating our fine products.",
+        "As always, visit our store website for a list of specific products and sections."
+      ]
+    },
+    {
+      "rank": 14,
+      "firstRecordedDate": "2026-08-30",
+      "title": "Birdhouse Building",
+      "id": "G016",
+      "frequency": 5,
+      "firstRecordIndex": 16,
+      "hasVariants": false,
+      "sentences": [
+        "Measure each piece carefully before you cut.",
+        "Saw slowly to keep the line smooth and straight.",
+        "Lightly sand the edges until they all feel smooth and clean.",
+        "Make a round hole that the bird will use as the entrance to the house.",
+        "Glue each side of the house together and give it some time to dry.",
+        "To attach the roof, hammer the nails in gently so the wood doesn't split or crack.",
+        "To protect the birdhouse from weather, seal it well so it will last for years."
+      ]
+    },
+    {
+      "rank": 15,
+      "firstRecordedDate": "2026-08-29",
+      "title": "Online Learning Platform",
+      "id": "G020",
+      "frequency": 5,
+      "firstRecordIndex": 21,
+      "hasVariants": true,
+      "sentences": [
+        "Class details are on the course home page.",
+        "Use the forum to exchange thoughts with classmates.",
+        "Upload assignments to the platform for evaluation.",
+        "The video lectures will help you learn the material.",
+        "The online gradebook shows your scores for all class assignments.",
+        "Turn on notifications so you never miss messages from your instructors.",
+        "If you face technical issues, contact support to resolve the problem."
+      ]
+    },
+    {
+      "rank": 16,
+      "firstRecordedDate": "2026-08-19",
+      "title": "Watercolor Painting",
+      "id": "G027",
+      "frequency": 5,
+      "firstRecordIndex": 31,
+      "hasVariants": true,
+      "sentences": [
+        "Lightly wet your brush before starting to paint.",
+        "Add a small bit of color to your brush.",
+        "Mix two or more paints to create additional colors.",
+        "Apply thin layers to keep the paper from tearing.",
+        "Use a smaller brush to add fine details to the picture.",
+        "If a section looks too wet, blot it gently to pick up any excess paint.",
+        "When the painting is finished, blow warm air on it for moving or storing it."
+      ]
+    },
+    {
+      "rank": 17,
+      "firstRecordedDate": "2026-08-15",
+      "title": "Culture Festival",
+      "id": "G032",
+      "frequency": 5,
+      "firstRecordIndex": 38,
+      "hasVariants": true,
+      "sentences": [
+        "There will be dance acts throughout the festival.",
+        "You can sample cuisines from different countries.",
+        "The festival also features works by international artists.",
+        "This is a great opportunity to learn about different traditions firsthand.",
+        "Our friendly staff members are available if you need any assistance.",
+        "Use the festival map to find the activities you are interested in.",
+        "For a deeper look at the exhibits, join a walk led by a certified guide."
+      ]
+    },
+    {
+      "rank": 18,
+      "firstRecordedDate": "2026-07-25",
+      "title": "Latte Making",
+      "id": "G044",
+      "frequency": 5,
+      "firstRecordIndex": 65,
+      "hasVariants": true,
+      "sentences": [
+        "Make a shot of espresso with the machine.",
+        "Steam the milk until it's hot and bubbling.",
+        "Pour the coffee into the appropriately sized cup.",
+        "Slowly add the milk until the cup is about halfway full.",
+        "Use a spoon to create latte art if you know how to do it.",
+        "Ask the customer if they want sugar or honey before adding any.",
+        "Before serving, place a small chocolate on the saucer next to the cup."
+      ]
+    },
+    {
+      "rank": 19,
+      "firstRecordedDate": "2026-09-05",
+      "title": "Presentation Preparation",
+      "id": "G009",
+      "frequency": 4,
+      "firstRecordIndex": 9,
+      "hasVariants": true,
+      "sentences": [
+        "Start by setting up the projector screen.",
+        "Use the whiteboard to highlight key points.",
+        "Arrange your project materials neatly on the tables.",
+        "Check all the equipment to ensure it works properly.",
+        "Make sure your computer is set up with your presentation.",
+        "It's a good idea to practice delivering your speech in front of some friends.",
+        "Take time to review your notes thoroughly, so you'll feel confident and prepared."
+      ]
+    },
+    {
+      "rank": 20,
+      "firstRecordedDate": "2026-09-05",
+      "title": "University Student Center",
+      "id": "G011",
+      "frequency": 4,
+      "firstRecordIndex": 11,
+      "hasVariants": true,
+      "sentences": [
+        "The resource desk is near the entrance.",
+        "The lounge is a quiet space for studying.",
+        "You can access free printing and Internet in the lab.",
+        "Our multi purpose room is used for workshops and events.",
+        "Please do not bring food from the Cafe to other places.",
+        "Check the bulletin board for daily announcements and activity schedules.",
+        "If anyone has questions, feel free to stop by the help desk near the exit."
+      ]
+    },
+    {
+      "rank": 21,
+      "firstRecordedDate": "2026-08-30",
+      "title": "Rock Climbing",
+      "id": "G015",
+      "frequency": 4,
+      "firstRecordIndex": 15,
+      "hasVariants": false,
+      "sentences": [
+        "You can rent climbing shoes at the front desk.",
+        "Always wear a helmet when in the gym.",
+        "The shorter walls can be used without ropes or a harness.",
+        "Just follow the colored marks to stay on the same climbing path.",
+        "Also make sure to check out our special strength training zone.",
+        "Use the hang and chin-up bars to increase the power of your upper body.",
+        "If you need help, trained instructors are always nearby to guide and advise you."
+      ]
+    },
+    {
+      "rank": 22,
+      "firstRecordedDate": "2026-08-30",
+      "title": "Flower Arranging",
+      "id": "G018",
+      "frequency": 4,
+      "firstRecordIndex": 18,
+      "hasVariants": true,
+      "sentences": [
+        "Cut stems at an angle using shears.",
+        "Place pebbles in the bottom for support.",
+        "Begin by placing the taller flowers in the center.",
+        "Fill gaps with smaller flowers to maintain the visual balance.",
+        "Add some greenery to enhance the overall fullness.",
+        "You need to change the water regularly to keep everything looking fresh.",
+        "Once you are happy with your arrangement, decorate it with a pretty ribbon."
+      ]
+    },
+    {
+      "rank": 23,
+      "firstRecordedDate": "2026-08-30",
+      "title": "University Gym",
+      "id": "G019",
+      "frequency": 4,
+      "firstRecordIndex": 20,
+      "hasVariants": true,
+      "sentences": [
+        "Soccer matches and practice take place here.",
+        "You can practice basketball or play games.",
+        "Be sure to reserve a court in advance to play tennis.",
+        "Enjoy a swim or unwind in the water with your friends.",
+        "Various exercise equipment is available here.",
+        "Personal trainers are available for individual guidance for a small price.",
+        "If you need help getting around, check the map for specific areas and facilities."
+      ]
+    },
+    {
+      "rank": 24,
+      "firstRecordedDate": "2026-08-25",
+      "title": "Maritime Museum",
+      "id": "G021",
+      "frequency": 4,
+      "firstRecordIndex": 22,
+      "hasVariants": true,
+      "sentences": [
+        "This area shows early sailing ships.",
+        "Some older style boats used steam for power.",
+        "These very accurate ship models show how designs have changed.",
+        "Before satellites, these tools helped sailors navigate oceans.",
+        "Let me explain how trade routes shaped global shipping over time.",
+        "Feel free to ask questions if you want to know more about anything you've seen.",
+        "For non-fiction books and novels about ships, be sure to visit the gift shop."
+      ]
+    },
+    {
+      "rank": 25,
+      "firstRecordedDate": "2026-08-19",
+      "title": "Bicycle Repair",
+      "id": "G026",
+      "frequency": 4,
+      "firstRecordIndex": 29,
+      "hasVariants": true,
+      "sentences": [
+        "First, select the right tool to remove the wheel.",
+        "Next, deflate the tire completely.",
+        "Carefully locate the puncture hole and mark it with a pen.",
+        "Select a patch from the repair kit and apply it firmly.",
+        "Use the pump to inflate the tire to the correct pressure.",
+        "Check for additional leaks by submerging the tube in a bucket of water.",
+        "If there are no new problems, reattach the wheel tightly back on the bicycle."
+      ]
+    },
+    {
+      "rank": 26,
+      "firstRecordedDate": "2026-08-12",
+      "title": "Sewing a Button",
+      "id": "G033",
+      "frequency": 4,
+      "firstRecordIndex": 42,
+      "hasVariants": true,
+      "sentences": [
+        "First, thread the needle and tie a knot.",
+        "Position the button on the fabric.",
+        "Push the needle gently through the fabric and button.",
+        "Sew tightly through each of the holes between 3 and 5 times.",
+        "Tie a strong knot at the back to firmly secure your work.",
+        "Cut any extra thread, then repeat the same steps if there are other buttons.",
+        "If your fingers are sensitive, use a thimble for protection while sewing."
+      ]
+    },
+    {
+      "rank": 27,
+      "firstRecordedDate": "2026-08-08",
+      "title": "Baking Cookies",
+      "id": "G036",
+      "frequency": 4,
+      "firstRecordIndex": 47,
+      "hasVariants": true,
+      "sentences": [
+        "Mix the butter and sugar together in a large bowl.",
+        "Spread the dough evenly so the cookies will bake uniformly.",
+        "Preheat the oven before you begin baking.",
+        "Space the cookie shapes evenly on the baking sheet.",
+        "Bake the cookies until the edges are golden.",
+        "Let the cookies cool on the rack for five minutes.",
+        "Pour yourself a glass of milk and enjoy the warm cookies fresh out of the oven."
+      ]
+    },
+    {
+      "rank": 28,
+      "firstRecordedDate": "2026-08-07",
+      "title": "Community Garden",
+      "id": "G040",
+      "frequency": 4,
+      "firstRecordIndex": 51,
+      "hasVariants": true,
+      "sentences": [
+        "Protect your hands while working in the garden.",
+        "put tools away after using them.",
+        "Follow the posted rules so everyone can stay safe.",
+        "Use safe lifting methods whenever you move large garden items.",
+        "Put yard scraps in the compost pile to maintain a tidy garden.",
+        "After watering the plants, store the hose properly so no one will trip on it.",
+        "During hot weather, drink water because hydration is important for good health."
+      ]
+    },
+    {
+      "rank": 29,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Amusement Park Visit",
+      "id": "G049",
+      "frequency": 4,
+      "firstRecordIndex": 77,
+      "hasVariants": true,
+      "sentences": [
+        "The rollercoasters offer a thrilling time.",
+        "Water rides provide a chance to cool off.",
+        "There are special opportunities for any young guests.",
+        "Over here is the food court with many dining options.",
+        "The souvenir store sells park themed merchandise for your shopping needs.",
+        "For more information, park maps and schedules are available at the entrance.",
+        "If you're looking for more, check the map for ride locations and visitor amenities."
+      ]
+    },
+    {
+      "rank": 30,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Campus Tour",
+      "id": "G053",
+      "frequency": 4,
+      "firstRecordIndex": 85,
+      "hasVariants": true,
+      "sentences": [
+        "Welcome to our campus tour.",
+        "The enrollment office is straight ahead.",
+        "Next door you will see the library.",
+        "The cafeteria has many meal options available.",
+        "University lecture halls are located over here.",
+        "If you have any questions, please stop by the information desk.",
+        "Lastly, please also remember to check the event schedule at the entrance."
+      ]
+    },
+    {
+      "rank": 31,
+      "firstRecordedDate": "2026-09-13",
+      "title": "Baking Bread",
+      "id": "G003",
+      "frequency": 3,
+      "firstRecordIndex": 3,
+      "hasVariants": true,
+      "sentences": [
+        "Measure carefully before starting to mix.",
+        "Add yeast to a small amount of warm water.",
+        "Stir the wet and dry ingredients into a soft dough.",
+        "Press and fold repeatedly until the texture feels elastic.",
+        "Let the dough rest in a warm place until it doubles in size.",
+        "After the loaf rises, bake until the top is browned and the center is firm.",
+        "When the bread is done, place it on a raised stand so airflow beneath can cool it down."
+      ]
+    },
+    {
+      "rank": 32,
+      "firstRecordedDate": "2026-09-13",
+      "title": "University Library",
+      "id": "G004",
+      "frequency": 3,
+      "firstRecordIndex": 4,
+      "hasVariants": true,
+      "sentences": [
+        "The library books are located here.",
+        "Study rooms can be reserved for group work.",
+        "Our computer lab has workstations with Internet access.",
+        "Seek help at the reference desk for any research assistance.",
+        "Find tasty refreshments and healthy snacks at the basement cafe.",
+        "For your convenience, we have a map with a list of sections and resources.",
+        "If you have general or specific questions, our staff are here to meet your needs."
+      ]
+    },
+    {
+      "rank": 33,
+      "firstRecordedDate": "2026-09-05",
+      "title": "Computer Lab",
+      "id": "G010",
+      "frequency": 3,
+      "firstRecordIndex": 10,
+      "hasVariants": true,
+      "sentences": [
+        "Use your email address to log in.",
+        "You can print all your documents here.",
+        "You can also access the scanners in this corner free of charge.",
+        "Visit the Help Desk to solve any technical problems.",
+        "Check to make sure the Wi-Fi connection is stable and secure.",
+        "Remember to save your work frequently to avoid data loss or corruption.",
+        "If you are unsure when the lab is open, you can check the weekly schedule here."
+      ]
+    },
+    {
+      "rank": 34,
+      "firstRecordedDate": "2026-09-01",
+      "title": "Woodworking Class",
+      "id": "G012",
+      "frequency": 3,
+      "firstRecordIndex": 12,
+      "hasVariants": false,
+      "sentences": [
+        "Measure carefully to avoid mistakes.",
+        "Draw a line with a pencil before cutting.",
+        "Hammer the nails gently so the wood does not split apart.",
+        "Hold your work firmly in place to avoid accidents while cutting.",
+        "Sand the surface evenly until the board feels smooth to the touch.",
+        "When drilling into the wood, keep the tool straight so the hole remains neat and smooth.",
+        "When sawing or using heavy equipment, wear safety glasses for protection."
+      ]
+    },
+    {
+      "rank": 35,
+      "firstRecordedDate": "2026-08-30",
+      "title": "Botanical Garden Tour",
+      "id": "G017",
+      "frequency": 3,
+      "firstRecordIndex": 17,
+      "hasVariants": true,
+      "sentences": [
+        "You can buy tickets at the entrance.",
+        "The rose garden is beautiful this season.",
+        "The pond is a popular spot for sitting and relaxing.",
+        "Visit the greenhouse for a variety of exotic plants.",
+        "Check the bulletin board for information about guided tours.",
+        "The gift shop offers souvenirs and gardening books at reasonable prices.",
+        "Enjoy your lunch at our cafe, which has outdoor seating overlooking the grounds."
+      ]
+    },
+    {
+      "rank": 36,
+      "firstRecordedDate": "2026-08-22",
+      "title": "Pottery Basics",
+      "id": "G024",
+      "frequency": 3,
+      "firstRecordIndex": 26,
+      "hasVariants": true,
+      "sentences": [
+        "First, wet your hands to keep the clay moist.",
+        "You will be using the center of the wheel.",
+        "Use your thumbs to gently open the clay in the middle.",
+        "Smooth the surface every few minutes with a damp sponge.",
+        "Remove any excess clay to give the bowl a clean shape.",
+        "Once everything looks good, let the finished piece dry on a rack for a full day.",
+        "Remember that practice is key to mastering pottery, so keep at it."
+      ]
+    },
+    {
+      "rank": 37,
+      "firstRecordedDate": "2026-08-18",
+      "title": "Class Registration",
+      "id": "G028",
+      "frequency": 3,
+      "firstRecordIndex": 33,
+      "hasVariants": true,
+      "sentences": [
+        "It's time for us to begin our lesson.",
+        "First, please click on the course catalog.",
+        "Update your student profile information in the system.",
+        "You can then check your timetable to avoid scheduling conflicts.",
+        "To enroll in a class, select the registration button.",
+        "Be sure to review your schedule before your classes officially start.",
+        "If you have questions, please refer to the help section for quick and easy answers."
+      ]
+    },
+    {
+      "rank": 38,
+      "firstRecordedDate": "2026-08-08",
+      "title": "Art Exhibition",
+      "id": "G035",
+      "frequency": 3,
+      "firstRecordIndex": 46,
+      "hasVariants": true,
+      "sentences": [
+        "Artwork can be seen in the east wing.",
+        "Pieces are placed along the main corridor.",
+        "Interactive displays are set up near the front entrance.",
+        "Pick up printed materials at the information desk.",
+        "Incredible photos tell unique stories about campus life.",
+        "If you need to relax for a moment, there are places to sit and take a break.",
+        "Tours are given daily every hour, but you need to sign up one day prior."
+      ]
+    },
+    {
+      "rank": 39,
+      "firstRecordedDate": "2026-08-08",
+      "title": "Zoo Tour",
+      "id": "G037",
+      "frequency": 3,
+      "firstRecordIndex": 48,
+      "hasVariants": true,
+      "sentences": [
+        "You will see birds living in their treetop homes.",
+        "This space houses animals from Africa.",
+        "Many reptiles live here, including snakes, lizards and turtles.",
+        "Brightly colored butterflies are found in this peaceful area.",
+        "Staff are available to explain the displays in more detail.",
+        "Guides lead nature walks, highlighting native species and protected habitats.",
+        "To explore locations, trail paths and key features, you can download the map for free."
+      ]
+    },
+    {
+      "rank": 40,
+      "firstRecordedDate": "2026-08-08",
+      "title": "City Landmarks",
+      "id": "G038",
+      "frequency": 3,
+      "firstRecordIndex": 49,
+      "hasVariants": true,
+      "sentences": [
+        "This castle is famous for its towers.",
+        "The statue celebrates important events.",
+        "Visit the market to buy local goods and fresh produce.",
+        "The park is perfect for relaxing and outdoor activities.",
+        "See art displays and historical relics at the museum.",
+        "Guided city tours can provide detailed information about each landmark.",
+        "When needed, check out the city map for directions and transportation options."
+      ]
+    },
+    {
+      "rank": 41,
+      "firstRecordedDate": "2026-07-25",
+      "title": "Indoor Plant Care",
+      "id": "G043",
+      "frequency": 3,
+      "firstRecordIndex": 61,
+      "hasVariants": true,
+      "sentences": [
+        "This species is very easy to care for.",
+        "Water it thoroughly once a week.",
+        "Misting the leaves with a gentle spray helps them stay green.",
+        "Yellow leaves are a sign that it may be too cold for the plant.",
+        "Giving the plant nutrients monthly will help keep it healthy.",
+        "You should trim any brown leaves every week as this will help to promote growth.",
+        "Ensure the plant receives indirect sunlight in order to avoid leaf burn."
+      ]
+    },
+    {
+      "rank": 42,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Grocery Store Services",
+      "id": "G048",
+      "frequency": 3,
+      "firstRecordIndex": 76,
+      "hasVariants": true,
+      "sentences": [
+        "Milk and yogurt are in the dairy section.",
+        "Bread is freshly baked on site every day.",
+        "We have a huge selection of fresh fruits and vegetables.",
+        "This flyer has all our weekly deals and special discounts.",
+        "The checkout counter is located at the front of the store.",
+        "If you need help while learning, please don't hesitate to ask a full-time store associate.",
+        "Download our app and sign up for our newsletter to stay informed about upcoming sales."
+      ]
+    },
+    {
+      "rank": 43,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Tech Store Services",
+      "id": "G052",
+      "frequency": 3,
+      "firstRecordIndex": 84,
+      "hasVariants": true,
+      "sentences": [
+        "Laptops are located in this aisle.",
+        "We have a wide assortment of headphones.",
+        "To pick up an online order, go to the checkout counter.",
+        "Get a phone case for free if you purchase a smartphone from us.",
+        "Sign up for a membership to receive member only discounts.",
+        "You can return unused products for a full refund within one week of purchase.",
+        "We are here to help if you need advice on which model is most suitable for your needs."
+      ]
+    },
+    {
+      "rank": 44,
+      "firstRecordedDate": "2026-07-07",
+      "title": "University Art Gallery",
+      "id": "G058",
+      "frequency": 3,
+      "firstRecordIndex": 109,
+      "hasVariants": true,
+      "sentences": [
+        "Sculptures are located in the central hall.",
+        "We highlight paintings from local artists.",
+        "Visitors can use the touch screen display to plan their day.",
+        "Brochures about new exhibits are available free of charge.",
+        "Guests can check in or purchase tickets at the entrance desk.",
+        "For additional information, read the wall labels next to each piece of art.",
+        "Use the audio device to hear an expert talk about our collections."
+      ]
+    },
+    {
+      "rank": 45,
+      "firstRecordedDate": "2026-07-04",
+      "title": "Yoga Routine",
+      "id": "G060",
+      "frequency": 3,
+      "firstRecordIndex": 122,
+      "hasVariants": true,
+      "sentences": [
+        "Find a good place to roll out your mat.",
+        "Keep some water handy to drink when needed.",
+        "Focus on slow breathing to stay relaxed through each movement.",
+        "Pay attention to the instructor's words to learn proper form.",
+        "A block can help you maintain your balance while holding poses.",
+        "During meditation, use a cushion to help relax and support your body.",
+        "If you have questions about the positions, speak with the teacher after class."
+      ]
+    },
+    {
+      "rank": 46,
+      "firstRecordedDate": "2026-06-16",
+      "title": "Travel Agency",
+      "id": "G061",
+      "frequency": 3,
+      "firstRecordIndex": 134,
+      "hasVariants": true,
+      "sentences": [
+        "Welcome to the travel agency.",
+        "We offer travel packages for many destinations.",
+        "You can ask about flights, hotels, and tour plans.",
+        "Our staff can help you choose the best option.",
+        "Please provide your travel dates when booking a trip.",
+        "Some packages include transportation and guided tours.",
+        "Before confirming your reservation, review all the details with our staff."
+      ]
+    },
+    {
+      "rank": 47,
+      "firstRecordedDate": "2026-08-22",
+      "title": "Campus Tour",
+      "id": "G023",
+      "frequency": 2,
+      "firstRecordIndex": 25,
+      "hasVariants": true,
+      "sentences": [
+        "The tour begins at the main entrance.",
+        "Our first stop is the campus library.",
+        "Next, we will visit the cafeteria for a brief lunch.",
+        "This lecture hall is used for many physical science classes.",
+        "This dormitory complex is where most first-year students live.",
+        "The Union building has many events for everyone on weekday evenings.",
+        "If you have any questions after the tour, visit the information booth."
+      ]
+    },
+    {
+      "rank": 48,
+      "firstRecordedDate": "2026-08-22",
+      "title": "Smoothie Preparation",
+      "id": "G025",
+      "frequency": 2,
+      "firstRecordIndex": 27,
+      "hasVariants": false,
+      "sentences": [
+        "Peel and slice a banana to add natural sweetness.",
+        "Add fruits that vary in color to increase vitamins.",
+        "You can add flavored yogurt for additional taste.",
+        "Slowly add milk until you reach the desired consistency.",
+        "Blend until no chunks remain and everything is mixed evenly.",
+        "Optionally, add a few pieces of ice for a colder drink.",
+        "Once everything looks ready, pour the smoothie into a chilled glass and serve."
+      ]
+    },
+    {
+      "rank": 49,
+      "firstRecordedDate": "2026-08-15",
+      "title": "Wall Painting",
+      "id": "G030",
+      "frequency": 2,
+      "firstRecordIndex": 36,
+      "hasVariants": true,
+      "sentences": [
+        "First, spread a drop cloth on the floor to protect it from paint.",
+        "Apply painter's tape around the edges before you start painting.",
+        "Pour some paint into the tray before using the roller.",
+        "Use a roller to apply the paint evenly over large areas.",
+        "Start at the top of the wall and work your way down.",
+        "For higher areas, use an extension ladder to reach the top of the wall.",
+        "Remove the painter's tape before the paint is completely dry."
+      ]
+    },
+    {
+      "rank": 50,
+      "firstRecordedDate": "2026-08-15",
+      "title": "Career Fair",
+      "id": "G031",
+      "frequency": 2,
+      "firstRecordIndex": 37,
+      "hasVariants": true,
+      "sentences": [
+        "When you arrive, please sign in at the registration desk.",
+        "Free refreshments will be available throughout the day.",
+        "When you sign in, you will receive a printed schedule and a site map.",
+        "At noon, there will be presentations on how to write an effective resume.",
+        "There is a quiet meeting area upstairs where you can speak with employers.",
+        "Computers are available for contacting company representatives.",
+        "After the fair, monitor your email closely for messages from employers."
+      ]
+    },
+    {
+      "rank": 51,
+      "firstRecordedDate": "2026-08-08",
+      "title": "Library Facilities",
+      "id": "G034",
+      "frequency": 2,
+      "firstRecordIndex": 45,
+      "hasVariants": false,
+      "sentences": [
+        "The public computers are in the corner.",
+        "The research help desk is near the entrance.",
+        "Group tables are available for collaborative work.",
+        "You can print assignments using the machines located here.",
+        "Newly released books are displayed near the window section.",
+        "Workshops which include advanced searching techniques are offered by librarians.",
+        "For additional research help, explore our online database tutorials."
+      ]
+    },
+    {
+      "rank": 52,
+      "firstRecordedDate": "2026-08-07",
+      "title": "Campus Dining Hall",
+      "id": "G039",
+      "frequency": 2,
+      "firstRecordIndex": 50,
+      "hasVariants": true,
+      "sentences": [
+        "Check your schedule to confirm your work hours.",
+        "Arrive on time and be ready to start your shift.",
+        "Learn the menu at your station before service begins.",
+        "Use separate utensils for each dish during service.",
+        "Maintain a friendly attitude when serving guests in line.",
+        "After food service ends, you will need to stay thirty more minutes to help clean up.",
+        "If you need time off, speak to your supervisor so your shift can be covered."
+      ]
+    },
+    {
+      "rank": 53,
+      "firstRecordedDate": "2026-07-25",
+      "title": "Career Fair",
+      "id": "G046",
+      "frequency": 2,
+      "firstRecordIndex": 68,
+      "hasVariants": false,
+      "sentences": [
+        "Visit employers to learn about jobs.",
+        "Career workshops offer tools and guidance.",
+        "Use this space to build relationships and exchange information.",
+        "Get feedback from specialists on how to write your resume.",
+        "Feel free to take a break and recharge with some refreshments.",
+        "If you're unsure where to begin, follow the group tour that explores key areas.",
+        "If you are trying to make the most of your time, consult the map in advance."
+      ]
+    },
+    {
+      "rank": 54,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Home Improvement Store",
+      "id": "G050",
+      "frequency": 2,
+      "firstRecordIndex": 80,
+      "hasVariants": true,
+      "sentences": [
+        "Lighting is located near the entrance.",
+        "Flooring includes tile, wood and carpet.",
+        "A wide variety of paint colors are available.",
+        "The tools area has everything from hammers to drills.",
+        "Garden supplies are available at the back of the store.",
+        "Anyone returning an item should be directed to the service counter.",
+        "Customers may need help in many sections, so move around the store to assist as needed."
+      ]
+    },
+    {
+      "rank": 55,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Open House Event",
+      "id": "G054",
+      "frequency": 2,
+      "firstRecordIndex": 86,
+      "hasVariants": true,
+      "sentences": [
+        "Visitors should check in when they arrive.",
+        "There are informational sessions scheduled.",
+        "Student-led tours highlight what typical campus housing is like.",
+        "Meals and snacks are available for purchase for visitors.",
+        "Guests are welcome to make use of the study areas.",
+        "Though the campus is large, the printed map includes every session and location.",
+        "If you are free this afternoon, you can join one of the scheduled campus tours."
+      ]
+    },
+    {
+      "rank": 56,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Gym Equipment Tour",
+      "id": "G055",
+      "frequency": 2,
+      "firstRecordIndex": 87,
+      "hasVariants": true,
+      "sentences": [
+        "Let's begin our gym tour.",
+        "You can start with a warm-up on the treadmill.",
+        "We have a weight area for strength training.",
+        "Our rowing machines are best if you want a full-body workout.",
+        "These stationary bikes can help to improve your endurance.",
+        "We also have a water fountain for guests to use when they want.",
+        "If you find a need for assistance in any way, please ask the help desk."
+      ]
+    },
+    {
+      "rank": 57,
+      "firstRecordedDate": "2026-05-26",
+      "title": "Bookstore Orientation",
+      "id": "G064",
+      "frequency": 2,
+      "firstRecordIndex": 162,
+      "hasVariants": true,
+      "sentences": [
+        "All our books are located on these shelves.",
+        "Bring your purchases to the cash register.",
+        "Use the inventory to search for available items.",
+        "Our staff provides a monthly list of recommendations.",
+        "Information about membership benefits is displayed here.",
+        "We have many interesting store events that we recommend you attend.",
+        "We value customer feedback, so please consider leaving a store review."
+      ]
+    },
+    {
+      "rank": 58,
+      "firstRecordedDate": "2026-03-21",
+      "title": "Wood Shop",
+      "id": "G078",
+      "frequency": 2,
+      "firstRecordIndex": 228,
+      "hasVariants": true,
+      "sentences": [
+        "Welcome to the wood shop.",
+        "This toolbox contains everything you should need.",
+        "You will learn to use your saw in our classes.",
+        "Your screwdriver can be used with all of our carpentry machines.",
+        "All wood will need to be smooth, so use the sandpaper provided.",
+        "Use only what is needed so that your supplies last all quarter.",
+        "Before you leave the classroom, be sure you put all your tools back into the tool box."
+      ]
+    },
+    {
+      "rank": 59,
+      "firstRecordedDate": "2026-07-25",
+      "title": "Bakery Job",
+      "id": "G045",
+      "frequency": 1,
+      "firstRecordIndex": 66,
+      "hasVariants": false,
+      "sentences": [
+        "Our rolls are baked fresh every morning.",
+        "We have apple and blueberry muffins.",
+        "Our sourdough loaf has a wonderfully tangy flavor.",
+        "Flat breads pair well with various cheeses like cheddar or brie.",
+        "Our cinnamon buns are soft and have a nice hint of sweetness.",
+        "Stop by and pick up delicious breakfast options for your family and friends.",
+        "With its hearty seeds, rye bread works well for sandwiches or to serve with dinner."
+      ]
+    },
+    {
+      "rank": 60,
+      "firstRecordedDate": "2026-07-21",
+      "title": "Library Printing Services",
+      "id": "G051",
+      "frequency": 1,
+      "firstRecordIndex": 83,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to the Help Desk.",
+        "First, select the printer from your computer.",
+        "Check the paper tray supply before you start.",
+        "You can use your student ID for any other services.",
+        "You can pay at the payment kiosk if you prefer that method.",
+        "The help desk is available if you need assistance.",
+        "When you are ready, simply select Print from your computer and retrieve your document."
+      ]
+    },
+    {
+      "rank": 61,
+      "firstRecordedDate": "2026-07-18",
+      "title": "Library",
+      "id": "G056",
+      "frequency": 1,
+      "firstRecordIndex": 100,
+      "hasVariants": false,
+      "sentences": [
+        "Use keywords when you look for any books.",
+        "Download materials to read offline.",
+        "There are digital books available to borrow.",
+        "Access scholarly articles through the research databases.",
+        "Use citation tools to format your references correctly.",
+        "Contact a librarian through the chat for any help you need.",
+        "For the smoothest access, make sure your Internet connection is fully stable."
+      ]
+    },
+    {
+      "rank": 62,
+      "firstRecordedDate": "2026-07-08",
+      "title": "Aquarium Internship",
+      "id": "G057",
+      "frequency": 1,
+      "firstRecordIndex": 108,
+      "hasVariants": false,
+      "sentences": [
+        "The cafe offers meals and refreshments.",
+        "The tank contains various species of sharks.",
+        "The jellyfish exhibit features mesmerizing displays.",
+        "The touch pool allows visitors to interact with sea creatures.",
+        "Guided tours and educational sessions are available.",
+        "Check the Aquarium Map for specific exhibits and visitor amenities.",
+        "If you are looking for exciting and colorful marine life, visit the Coral Reef exhibit."
+      ]
+    },
+    {
+      "rank": 63,
+      "firstRecordedDate": "2026-07-04",
+      "title": "Document Storage",
+      "id": "G059",
+      "frequency": 1,
+      "firstRecordIndex": 121,
+      "hasVariants": false,
+      "sentences": [
+        "Store documents to prevent damage.",
+        "Temperature controls help protect papers.",
+        "Use the catalog system to organize records expertly.",
+        "Carefully use restoration tools to repair damaged items.",
+        "We provide a quiet reading area for researchers.",
+        "Security cameras are used to monitor sensitive materials.",
+        "If long-term storage is needed, use the special storage boxes over here."
+      ]
+    },
+    {
+      "rank": 64,
+      "firstRecordedDate": "2026-06-13",
+      "title": "Course Registration",
+      "id": "G062",
+      "frequency": 1,
+      "firstRecordIndex": 136,
+      "hasVariants": false,
+      "sentences": [
+        "Start by browsing the catalog for classes.",
+        "Check your registration details often.",
+        "Use the Schedule Planner to organize your selections.",
+        "Payment options are listed under the Finance section.",
+        "Contact the Help Desk if you encounter any issues.",
+        "Review all your selected courses before making any final decisions.",
+        "Once everything is complete, be sure to download your registration summary."
+      ]
+    },
+    {
+      "rank": 65,
+      "firstRecordedDate": "2026-05-30",
+      "title": "Dining Hall",
+      "id": "G063",
+      "frequency": 1,
+      "firstRecordIndex": 159,
+      "hasVariants": false,
+      "sentences": [
+        "Let's tour the dining hall.",
+        "The food station is here.",
+        "Our seating area is very roomy.",
+        "The beverage machines provide students with drinks and refreshments.",
+        "The cashier will take your payment for your food and drinks over here.",
+        "Remember to clean up after you eat and throw away your trash.",
+        "If you want to know what is being offered, just check the daily menu for special dishes."
+      ]
+    },
+    {
+      "rank": 66,
+      "firstRecordedDate": "2026-05-19",
+      "title": "Film Festival",
+      "id": "G065",
+      "frequency": 1,
+      "firstRecordIndex": 168,
+      "hasVariants": false,
+      "sentences": [
+        "Films are shown daily in the screening rooms.",
+        "You can buy individual tickets here.",
+        "Grab something to eat or drink from one of the food vendors.",
+        "You can select from merchandise like shirts, bags, and posters.",
+        "Staff are available to help you with maps and schedules.",
+        "Take a behind-the-scenes tour to learn interesting and unusual facts.",
+        "The events map lists all relevant times and locations if you need help navigating."
+      ]
+    },
+    {
+      "rank": 67,
+      "firstRecordedDate": "2026-05-09",
+      "title": "Grocery Store",
+      "id": "G066",
+      "frequency": 1,
+      "firstRecordIndex": 181,
+      "hasVariants": false,
+      "sentences": [
+        "Produce is located near the entrance.",
+        "Dairy products include milk, cheese, and yogurt.",
+        "Freshly baked bread and pastries are available every day.",
+        "The back aisle is where you can find the frozen food section.",
+        "There are cashiers at the checkout counters near the exit.",
+        "Our weekly discounts are posted throughout the store and updated regularly.",
+        "If you are unsure where to direct people, refer to this floor plan of the store."
+      ]
+    },
+    {
+      "rank": 68,
+      "firstRecordedDate": "2026-05-06",
+      "title": "Zoo Visit",
+      "id": "G067",
+      "frequency": 1,
+      "firstRecordIndex": 184,
+      "hasVariants": false,
+      "sentences": [
+        "Mammals are found in the first section.",
+        "Parrots and eagles live in this habitat.",
+        "Reptiles are now located next to the large pavilion.",
+        "Visit the aquarium to see various kinds of sea life.",
+        "Our cafeteria offers meals and snacks at good prices.",
+        "Guided tours are available throughout the day for a modest fee.",
+        "For a detailed layout of other amazing exhibits at the zoo, use the map."
+      ]
+    },
+    {
+      "rank": 69,
+      "firstRecordedDate": "2026-04-29",
+      "title": "Watercolor Workshop",
+      "id": "G068",
+      "frequency": 1,
+      "firstRecordIndex": 190,
+      "hasVariants": false,
+      "sentences": [
+        "First, help the children wet their paper with a clean brush.",
+        "Dip the brush into water, then gently load it with color.",
+        "For the sky, use long horizontal strokes across the damp paper.",
+        "If the paint looks too dark, have them rinse the brush and try again.",
+        "Demonstrate how to clean the brush before switching to a different color.",
+        "Encourage them to experiment, because watercolor is very forgiving and mistakes often become happy accidents.",
+        "Once the first layer is completely dry, they can add details using a smaller brush and a technique called dry brush."
+      ]
+    },
+    {
+      "rank": 70,
+      "firstRecordedDate": "2026-04-18",
+      "title": "Bike Repair",
+      "id": "G069",
+      "frequency": 1,
+      "firstRecordIndex": 212,
+      "hasVariants": false,
+      "sentences": [
+        "This is a bicycle used for daily transportation.",
+        "Check the front wheel carefully.",
+        "Tighten the bolts with the right tool.",
+        "Use the pump to fill the tire with enough air pressure.",
+        "Make sure the chain moves smoothly without making unusual noise.",
+        "Place the tools back after finishing the repair.",
+        "Always inspect the entire bike carefully before riding it for safety"
+      ]
+    },
+    {
+      "rank": 71,
+      "firstRecordedDate": "2026-04-18",
+      "title": "Kitchen Lifestyle",
+      "id": "G070",
+      "frequency": 1,
+      "firstRecordIndex": 213,
+      "hasVariants": false,
+      "sentences": [
+        "Wash your hands before cooking.",
+        "put the flour into a large mixing bowl.",
+        "Mix the ingredients together on the kitchen table carefully.",
+        "Use a spoon to stir the mixture slowly and evenly.",
+        "Place the dough on the baking tray with care.",
+        "Put the tray into the oven and close the door tightly.",
+        "Take the cookies out after they are fully baked and let them cool down."
+      ]
+    },
+    {
+      "rank": 72,
+      "firstRecordedDate": "2026-04-18",
+      "title": "Gym Exercise",
+      "id": "G071",
+      "frequency": 1,
+      "firstRecordIndex": 214,
+      "hasVariants": false,
+      "sentences": [
+        "This gym has many cardio machines.",
+        "You can use treadmills or bikes to improve endurance.",
+        "The yoga studio offers quiet space for relaxation.",
+        "Remember to clean each machine after use.",
+        "You should bring a water bottle to stay hydrated during workouts.",
+        "After exercising, you can visit the smoothie bar for a healthy drink.",
+        "Try different activities regularly to improve fitness and keep your workout routine interesting over time."
+      ]
+    },
+    {
+      "rank": 73,
+      "firstRecordedDate": "2026-04-11",
+      "title": "Kitchen Class",
+      "id": "G072",
+      "frequency": 1,
+      "firstRecordIndex": 215,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to our kitchen class.",
+        "Wash your hands before starting the activity.",
+        "The ingredients are placed on the kitchen counter.",
+        "We will bake cookies together in this class today.",
+        "Use the mixing bowl to combine all the ingredients carefully.",
+        "Place the cookie dough evenly on the baking tray before baking.",
+        "Put the tray into the oven and wait until the cookies are fully baked."
+      ]
+    },
+    {
+      "rank": 74,
+      "firstRecordedDate": "2026-04-11",
+      "title": "Carpentry Class",
+      "id": "G073",
+      "frequency": 1,
+      "firstRecordIndex": 216,
+      "hasVariants": false,
+      "sentences": [
+        "Basic tools are provided for all students.",
+        "Always wear gloves when handling sharp tools.",
+        "This class teaches basic woodworking techniques for beginners.",
+        "Use the measuring tape to mark accurate cutting lines on wood.",
+        "The instructor will demonstrate how to safely operate each machine.",
+        "Make sure the wood pieces are secured before using any cutting equipment.",
+        "Follow all safety guidelines carefully to avoid injury while working with heavy tools."
+      ]
+    },
+    {
+      "rank": 75,
+      "firstRecordedDate": "2026-04-11",
+      "title": "Computer Lab",
+      "id": "G074",
+      "frequency": 1,
+      "firstRecordIndex": 218,
+      "hasVariants": false,
+      "sentences": [
+        "The computer stations are ready for students.",
+        "This printer can print and scan student documents.",
+        "Extra paper is stored beside the printer for quick refills.",
+        "The help box contains guides for solving common technical problems.",
+        "Check the wireless router if the Wi-Fi connection becomes unstable.",
+        "Remind students to save important files during long computer sessions so nothing is lost.",
+        "Students can use the calendar tool to check lab hours and upcoming equipment reservation times."
+      ]
+    },
+    {
+      "rank": 76,
+      "firstRecordedDate": "2026-04-11",
+      "title": "Community Garden",
+      "id": "G075",
+      "frequency": 1,
+      "firstRecordIndex": 219,
+      "hasVariants": false,
+      "sentences": [
+        "You can use these tools for gardening.",
+        "Please water the plants with a hose.",
+        "Some plants grow better in compost-rich soil.",
+        "The gardener will show how to trim and maintain plants.",
+        "Fertilizer helps improve plant growth and soil quality.",
+        "Be careful when using tools near delicate plant roots to avoid causing damage.",
+        "Check the labels carefully to identify different plant species and their specific growing conditions."
+      ]
+    },
+    {
+      "rank": 77,
+      "firstRecordedDate": "2026-03-29",
+      "title": "Painting Class",
+      "id": "G076",
+      "frequency": 1,
+      "firstRecordIndex": 221,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to the painting class.",
+        "Today we will practice basic painting techniques.",
+        "You can choose your own colors and materials.",
+        "Please follow the instructor's steps carefully.",
+        "Some students prefer using brushes of different sizes.",
+        "You may share your work and ideas with others.",
+        "If you need help, ask the instructor during class."
+      ]
+    },
+    {
+      "rank": 78,
+      "firstRecordedDate": "2026-03-29",
+      "title": "Email Management",
+      "id": "G077",
+      "frequency": 1,
+      "firstRecordIndex": 225,
+      "hasVariants": false,
+      "sentences": [
+        "Check your inbox for new messages.",
+        "Select Compose to write your e-mail.",
+        "Select from your contacts list to add recipients to your note.",
+        "Review sent items to confirm your messages were delivered.",
+        "Use folders to organize your correspondence efficiently.",
+        "Set up a few topical filters to manage incoming communications.",
+        "To be safe, remember to log out to keep your electronic mail secure in our system."
+      ]
+    },
+    {
+      "rank": 79,
+      "firstRecordedDate": "2026-03-21",
+      "title": "Library Services",
+      "id": "G079",
+      "frequency": 1,
+      "firstRecordIndex": 229,
+      "hasVariants": false,
+      "sentences": [
+        "The computer lab has free Wi-Fi access.",
+        "The reading room is a quiet space for patrons.",
+        "The children's section has books and activities for kids.",
+        "The reference desk can provide assistance for research projects.",
+        "Study rooms can be reserved for group work and other meetings.",
+        "Library staff are available for help finding resources here or at other locations.",
+        "If you are looking for other specific locations and services, please use our guide."
+      ]
+    },
+    {
+      "rank": 80,
+      "firstRecordedDate": "2026-03-11",
+      "title": "University Sporting Event",
+      "id": "G080",
+      "frequency": 1,
+      "firstRecordIndex": 235,
+      "hasVariants": false,
+      "sentences": [
+        "You can select your section and seat.",
+        "We have many different snacks and drinks for sale.",
+        "Family toilets are located by each of the sections.",
+        "Tickets and season passes are available near the front gate.",
+        "The visitor entrance to the stadium is through here.",
+        "Should you have questions about maps or event times, there are staff that can assist you.",
+        "You can download the map to your phone or tablet if you need any help navigating."
+      ]
+    },
+    {
+      "rank": 81,
+      "firstRecordedDate": "2026-03-08",
+      "title": "Internship Preparation Class",
+      "id": "G081",
+      "frequency": 1,
+      "firstRecordIndex": 238,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to the internship preparation class.",
+        "Today we will discuss how internships can help students.",
+        "Many interns assist teams with small tasks or projects.",
+        "Please listen carefully and take notes during the discussion.",
+        "You may also share examples from your own internship experience.",
+        "Some students find internships helpful for exploring career interests.",
+        "We will begin our first session on workplace communication shortly."
+      ]
+    },
+    {
+      "rank": 82,
+      "firstRecordedDate": "2026-03-08",
+      "title": "Computer Lab",
+      "id": "G082",
+      "frequency": 1,
+      "firstRecordIndex": 239,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to the computer lab.",
+        "Students use this space to study.",
+        "Each computer has access to the university network.",
+        "Please remember to log out when you finish using a computer.",
+        "You can also print documents at the printer near the wall.",
+        "Many students come here during the evening to work quietly.",
+        "If you need technical help, visit the support desk at the front."
+      ]
+    },
+    {
+      "rank": 83,
+      "firstRecordedDate": "2026-03-08",
+      "title": "Campus Garden",
+      "id": "G083",
+      "frequency": 1,
+      "firstRecordIndex": 240,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to the campus garden.",
+        "Many students come here to relax.",
+        "You can walk along the path and enjoy the flowers.",
+        "Please stay on the marked paths to protect the plants.",
+        "Some students like to sit on the benches and read.",
+        "Families often visit this garden during the spring.",
+        "If you need more information, the visitor center is near the entrance."
+      ]
+    },
+    {
+      "rank": 84,
+      "firstRecordedDate": "2026-03-08",
+      "title": "Presentation Equipment",
+      "id": "G084",
+      "frequency": 1,
+      "firstRecordIndex": 241,
+      "hasVariants": false,
+      "sentences": [
+        "Your equipment is ready.",
+        "You can use this station for projection.",
+        "This computer connects to the monitor.",
+        "We also provide a microphone for use in presentations.",
+        "You should check your connections before you start to present.",
+        "Remember to upload your slides so you can display them with ease.",
+        "If you find yourself needing assistance, call us on the helpline and we will assist you."
+      ]
+    },
+    {
+      "rank": 85,
+      "firstRecordedDate": "2026-02-10",
+      "title": "Community Center Facilities",
+      "id": "G085",
+      "frequency": 1,
+      "firstRecordIndex": 246,
+      "hasVariants": false,
+      "sentences": [
+        "The cafe offers refreshments and snacks.",
+        "Rooms can be reserved for group gatherings.",
+        "The Art Studio offers classes and workshops every day.",
+        "The library provides books, learning resources, and more.",
+        "The gymnasium is used for sports and fitness activities.",
+        "Staff are available for assistance with facility reservations.",
+        "Because this is a new center, help is available at no additional cost."
+      ]
+    },
+    {
+      "rank": 86,
+      "firstRecordedDate": "2026-02-07",
+      "title": "Botanical Garden",
+      "id": "G086",
+      "frequency": 1,
+      "firstRecordIndex": 248,
+      "hasVariants": false,
+      "sentences": [
+        "Check the map for specific collections.",
+        "Tropical plants are housed in the greenhouse.",
+        "Water features like ponds and fountains add tranquility.",
+        "The visitor center also sells souvenirs and some snacks.",
+        "The herb garden includes culinary and medicinal plants.",
+        "The garden features many varieties of roses that are only cultivated here.",
+        "If you are interested in a deeper understanding, guided tours are offered hourly."
+      ]
+    },
+    {
+      "rank": 87,
+      "firstRecordedDate": "2026-02-01",
+      "title": "Music Hall Guide",
+      "id": "G087",
+      "frequency": 1,
+      "firstRecordIndex": 252,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to the university music hall.",
+        "The hall is used for concerts and student performances.",
+        "seats are divided into floor seating and balcony seating.",
+        "If you need translation assistance, ask a staff member for help.",
+        "Visitors usually check tickets and programs before entering the hall.",
+        "staff members can help with seating questions and accessibility needs.",
+        "Remember, knowing the layout helps guests find their seats quickly and easily."
+      ]
+    },
+    {
+      "rank": 88,
+      "firstRecordedDate": "2026-01-28",
+      "title": "Class Registration",
+      "id": "G088",
+      "frequency": 1,
+      "firstRecordIndex": 253,
+      "hasVariants": false,
+      "sentences": [
+        "Enter your name and student ID number.",
+        "Browse the course catalog to choose your classes.",
+        "You can use the schedule planner tool to avoid time conflicts.",
+        "If a class is already full, a pop-up message will appear.",
+        "Contact the instructor to see if more seats can be added.",
+        "You can still add or drop classes up until the second week of the new semester.",
+        "For your records, print out a list of your classes or email a copy to yourself."
+      ]
+    },
+    {
+      "rank": 89,
+      "firstRecordedDate": "2026-01-27",
+      "title": "Weather Report",
+      "id": "G089",
+      "frequency": 1,
+      "firstRecordIndex": 256,
+      "hasVariants": false,
+      "sentences": [
+        "Today will be sunny and clear.",
+        "Expect cloudy conditions in the afternoon.",
+        "Rain showers are predicted for the evening.",
+        "Temperatures will range from 15 to 20 degrees Celsius.",
+        "Winds will be light around 10 km per hour.",
+        "Keep an umbrella handy for possible evening rain.",
+        "When you need a weather update, check out our new online app now available all day."
+      ]
+    },
+    {
+      "rank": 90,
+      "firstRecordedDate": "2026-01-21",
+      "title": "Shop Assistant",
+      "id": "G090",
+      "frequency": 1,
+      "firstRecordIndex": 258,
+      "hasVariants": false,
+      "sentences": [
+        "Welcome to our campus bakery.",
+        "First, daily specials and discounts are posted on flyers at the entrance and on the check-out counter.",
+        "Second, always inform customers that our bread is freshly baked on-site each morning.",
+        "Third, ensure sample trays are refilled and tidy.",
+        "If you notice any shortages, tell the senior staff right away.",
+        "Finally, direct any product questions to the senior staff.",
+        "Remember, a clean and inviting shop encourages repeat business."
+      ]
+    }
+  ]
+}
