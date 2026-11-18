@@ -23,7 +23,7 @@ for name in ['data.json', 'lr-audio.json']:
 for value in references:
     target = (root / urlsplit(value).path).resolve()
     assert target.is_relative_to(root.resolve()) and target.is_file(), value
-for name in ['index.html', 'app.js', 'styles.css', 'lr-frequency.js', 'lr-frequency.json', 'lr-audio.json', 'lr-frequency-source.pdf', '.nojekyll']:
+for name in ['index.html', 'app.js', 'styles.css', 'mobile.css', 'lr-frequency.js', 'lr-frequency.json', 'lr-audio.json', 'lr-frequency-source.pdf', '.nojekyll']:
     assert (root / name).is_file(), name
 for path in root.rglob('*'):
     assert not path.is_symlink(), path
