@@ -2,6 +2,35 @@
 window.LRFrequency = (() => {
   let dataset, pending, ui, audioData, queue=[], queuePosition=0, gapTimer, queueMode='single', phase='idle', pausedFrom=null, remainingGap=0, gapDeadline=0, cycle=1, playVersion=0;
   const state = {query:'', min:0, sort:'frequency', audio:'all', speed:1, gap:3, loop:true};
+  const progressKey='toefl-lr-continuous-progress-v1', settingsKey='toefl-lr-settings-v1';
+  let queueKey='', lastSavedSecond=-1;
+  function readStorage(key,fallback){try{return JSON.parse(localStorage.getItem(key))||fallback;}catch{return fallback;}}
+  function writeStorage(key,value){try{localStorage.setItem(key,JSON.stringify(value));}catch{/* Playback still works when storage is unavailable. */}}
+  const savedSettings=readStorage(settingsKey,{});
+  if(typeof savedSettings.query==='string')state.query=savedSettings.query;
+  if([0,2,3,5].includes(savedSettings.min))state.min=savedSettings.min;
+  if(['frequency','date'].includes(savedSettings.sort))state.sort=savedSettings.sort;
+  if(['all','original','complete','missing'].includes(savedSettings.audio))state.audio=savedSettings.audio;
+  function makeQueue(groups,selected=null){return groups.flatMap(group=>tracks(group).map((track,index)=>({track,index,group})).filter(item=>item.track&&(selected===null||selected===item.index)));}
+  function listKey(items){return JSON.stringify(items.map(item=>[item.group.id,item.index,item.track.src]));}
+  function savedProgress(key){const value=readStorage(progressKey,{})[key];return value&&Number.isInteger(value.position)&&value.position>=0&&Number.isFinite(value.time)&&value.time>=0?value:null;}
+  function saveProgress(){
+    if(queueMode!=='continuous'||!queue.length||!queueKey||phase==='idle')return;
+    const saved=readStorage(progressKey,{}), audio=document.querySelector('#lr-player');
+    const between=phase==='waiting'||(phase==='paused'&&pausedFrom==='waiting');
+    let position=queuePosition, time=audio?.currentTime||0, round=cycle;
+    if(between){position++;time=0;if(position>=queue.length){position=0;round++;}}
+    if(phase==='complete')delete saved[queueKey];
+    else saved[queueKey]={position,time,cycle:round,updated:Date.now()};
+    const recent=Object.entries(saved).sort((a,b)=>b[1].updated-a[1].updated).slice(0,20);
+    writeStorage(progressKey,Object.fromEntries(recent));
+  }
+  function updateResumeButton(){
+    const button=document.querySelector('#lr-continuous');if(!button||!dataset)return;
+    const items=makeQueue(filteredGroups()), saved=savedProgress(listKey(items));
+    button.innerHTML=ui.icon('sound')+(saved&&saved.position<items.length?` 继续播放当前列表（${saved.position+1} / ${items.length} 句）`:' 连续播放当前列表');
+    document.querySelector('#lr-restart').disabled=!items.length;
+  }
   const isCurrent = () => location.hash.replace(/^#\/?/,'') === 'lr-frequency';
   async function load() {
     if (dataset) return dataset;
@@ -19,7 +48,9 @@ window.LRFrequency = (() => {
     return groups;
   }
   function results() {
+    writeStorage(settingsKey,{query:state.query,min:state.min,sort:state.sort,audio:state.audio});
     const {esc}=ui, groups=filteredGroups();
+    updateResumeButton();
     const playable=groups.reduce((sum,group)=>sum+tracks(group).filter(Boolean).length,0);
     document.querySelector('#lr-continuous').disabled=!playable;
     document.querySelector('#lr-list-audio-count').textContent=`当前筛选有 ${groups.filter(group=>tracks(group).some(Boolean)).length} 组、${playable} 句可播放`;
@@ -67,7 +98,7 @@ window.LRFrequency = (() => {
           <label>音频<select id="lr-audio-filter"><option value="all">全部组别</option><option value="original">有原站音频</option><option value="complete">全组原站音频</option><option value="missing">暂缺部分原站音频</option></select></label>
           <button class="btn small" id="lr-clear">清除筛选</button>
         </div>
-        <div class="lr-continuous-bar"><button class="btn primary" id="lr-continuous">${icon('sound')} 连续播放当前列表</button><label class="lr-loop-option"><input type="checkbox" id="lr-loop" ${state.loop?'checked':''}> 播完循环</label><span id="lr-list-audio-count" role="status"></span><p>按开始时的筛选和排序逐组播放，自动跳过缺失音频。取消循环后，播完列表即停止。</p></div>
+        <div class="lr-continuous-bar"><button class="btn primary" id="lr-continuous">${icon('sound')} 连续播放当前列表</button><button class="btn small" id="lr-restart">从头播放</button><label class="lr-loop-option"><input type="checkbox" id="lr-loop" ${state.loop?'checked':''}> 播完循环</label><span id="lr-list-audio-count" role="status"></span><p>按开始时的筛选和排序逐组播放，自动跳过缺失音频。取消循环后，播完列表即停止。自动保存当前列表的播放进度，下次可继续；进度仅保存在当前浏览器。</p></div>
         <div class="lr-table-head lr-columns" aria-hidden="true"><span>排名</span><span>主题 / 点击展开 7 句原文</span><span>累计出现</span><span>首次记录日期</span><span></span></div>
         <div id="lr-results"></div>
       </section>
@@ -86,9 +117,12 @@ window.LRFrequency = (() => {
     document.querySelector('#lr-gap').onchange=event=>{state.gap=Number(event.target.value);if(phase==='waiting')scheduleNext(state.gap*1000);else if(phase==='paused'&&pausedFrom==='waiting')remainingGap=state.gap*1000;};
     document.querySelector('#lr-loop').onchange=event=>{state.loop=event.target.checked;updatePlayer();};
     document.querySelector('#lr-continuous').onclick=()=>startQueue(filteredGroups(),'continuous');
-    document.querySelector('#lr-stop').onclick=stop;
+    document.querySelector('#lr-restart').onclick=()=>startQueue(filteredGroups(),'continuous',null,true);
+    document.querySelector('#lr-stop').onclick=()=>{stop();updateResumeButton();};
     document.querySelector('#lr-toggle').onclick=togglePause;
     const player=document.querySelector('#lr-player');
+    player.ontimeupdate=()=>{const second=Math.floor(player.currentTime);if(second!==lastSavedSecond){lastSavedSecond=second;saveProgress();}};
+    player.onseeked=saveProgress;
     player.onended=()=>{if(!queue.length||phase==='idle')return;if(hasNext())scheduleNext(state.gap*1000);else{phase='complete';updatePlayer();}};
     player.onplay=()=>{if(!queue.length)return;if(phase==='paused'&&pausedFrom==='waiting'){player.pause();return;}phase='playing';pausedFrom=null;updatePlayer();};
     player.onpause=()=>{if(phase==='playing'&&!player.ended){phase='paused';pausedFrom='playing';updatePlayer();}};
@@ -101,6 +135,7 @@ window.LRFrequency = (() => {
   function sourceLabel(track) {return `原站音频 · ${track.testId.replace('mock-','Mock ')}`;}
   function hasNext(){return queuePosition+1<queue.length||(queueMode==='continuous'&&state.loop&&queue.length>0);}
   function updatePlayer(){
+    saveProgress();
     const label=document.querySelector('#lr-queue-status'),button=document.querySelector('#lr-toggle'),source=document.querySelector('#lr-track-source');
     if(!label||!button||!source||!queue.length)return;
     const name=queueMode==='continuous'?'连续播放':queueMode==='group'?'本组播放':'单句播放';
@@ -115,14 +150,18 @@ window.LRFrequency = (() => {
     gapTimer=setTimeout(()=>{if(phase!=='waiting'||!queue.length||!isCurrent())return;if(queuePosition+1<queue.length)queuePosition++;else if(queueMode==='continuous'&&state.loop){queuePosition=0;cycle++;}else{phase='complete';updatePlayer();return;}playCurrent();},delay);
   }
   function stop(){
+    saveProgress();
     clearTimeout(gapTimer);playVersion++;phase='idle';pausedFrom=null;remainingGap=0;queue=[];queuePosition=0;cycle=1;
     const audio=document.querySelector('#lr-player');if(audio){audio.pause();audio.removeAttribute('src');audio.load();document.querySelector('#lr-player-panel').hidden=true;}
     document.querySelectorAll('.lr-sentence-playing').forEach(el=>el.classList.remove('lr-sentence-playing'));
   }
-  function startQueue(groups,mode,selected=null){
+  function startQueue(groups,mode,selected=null,restart=false){
     stop();queueMode=mode;
-    queue=groups.flatMap(group=>tracks(group).map((track,index)=>({track,index,group})).filter(item=>item.track&&(selected===null||selected===item.index)));
-    if(queue.length)playCurrent();
+    queue=makeQueue(groups,selected);queueKey=mode==='continuous'?listKey(queue):'';
+    const saved=mode==='continuous'&&!restart?savedProgress(queueKey):null;
+    if(saved&&saved.position<queue.length){queuePosition=saved.position;cycle=Number.isInteger(saved.cycle)&&saved.cycle>0?saved.cycle:1;}
+    if(queue.length)playCurrent(saved&&saved.position<queue.length?saved.time:0);
+    updateResumeButton();
   }
   function attemptPlay(audio,version){
     audio.play().catch(()=>{if(version!==playVersion||!isCurrent()||phase==='idle')return;phase='paused';pausedFrom='playing';updatePlayer();document.querySelector('#lr-track-source').textContent='浏览器暂停了自动播放，请点击继续播放。';});
@@ -136,7 +175,7 @@ window.LRFrequency = (() => {
     else if(phase==='waiting'){remainingGap=Math.max(0,gapDeadline-Date.now());clearTimeout(gapTimer);phase='paused';pausedFrom='waiting';updatePlayer();}
     else if(phase==='playing'){phase='paused';pausedFrom='playing';audio.pause();updatePlayer();}
   }
-  function playCurrent(){
+  function playCurrent(resumeTime=0){
     const item=queue[queuePosition];if(!item||!isCurrent())return;
     clearTimeout(gapTimer);phase='loading';pausedFrom=null;const version=++playVersion;
     const {group,index,track}=item,audio=document.querySelector('#lr-player');
@@ -145,9 +184,15 @@ window.LRFrequency = (() => {
     document.querySelector('#lr-track-sentence').textContent=group.sentences[index];
     document.querySelectorAll('.lr-sentence-playing').forEach(el=>el.classList.remove('lr-sentence-playing'));
     document.querySelector(`#lr-sentence-${group.id}-${index}`)?.classList.add('lr-sentence-playing');
-    updatePlayer();audio.src=track.src;audio.playbackRate=state.speed;attemptPlay(audio,version);
+    audio.onloadedmetadata=null;
+    audio.src=track.src;audio.playbackRate=state.speed;lastSavedSecond=-1;
+    if(resumeTime>0){
+      audio.onloadedmetadata=()=>{if(version!==playVersion)return;audio.onloadedmetadata=null;audio.currentTime=Number.isFinite(audio.duration)?Math.min(resumeTime,Math.max(0,audio.duration-0.05)):resumeTime;updatePlayer();attemptPlay(audio,version);};
+    }else{updatePlayer();attemptPlay(audio,version);}
   }
   document.addEventListener('click',event=>{const button=event.target.closest('[data-lr-play],[data-lr-group]');if(!button||!dataset||button.disabled)return;const group=dataset.groups.find(g=>g.id===(button.dataset.lrPlay||button.dataset.lrGroup));if(!group)return;const single=Boolean(button.dataset.lrPlay);startQueue([group],single?'single':'group',single?Number(button.dataset.lrIndex):null);});
+  window.addEventListener('pagehide',saveProgress);
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)saveProgress();});
   window.addEventListener('hashchange',()=>{if(!isCurrent())stop();});
   async function render(context) {
     ui=context;
