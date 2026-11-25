@@ -23,3 +23,20 @@ python3 -m http.server 4175 --bind 127.0.0.1 --directory site
 ## 手机适配
 
 `site/mobile.css`为iPhone 15等手机提供单列题库、较大的字体及触控区域、句内填空与词块换行、Safari输入字号、安全区边距和播放器底部留白。覆盖竖屏及触屏设备的横屏短视口，保留双指缩放。样式与桌面页面分开加载。
+
+## 全量题库（2026-11-26）
+
+已导入 Wofo 70 个试卷定义：完整模考 Mock 1–50、口语 Mock 1–70、写作 Mock 1–70，合计 5,110 条题组、6,460 小题。口语和写作入口包含完整模考中的对应科目，题目共用相同 ID 和学习进度，不重复计数。原有 2,320 条题组 ID 全部保留。
+
+范围为原站正常试卷定义返回的默认组合；不包含需由考试作答触发的其他自适应分支。Mock 20 的 `mock-20__45a7f30ed861` 原站答案指向缺失的第四个选项，保留题面，暂不自动评分。
+
+重建题库（Python 3；下载媒体检查需要 ffprobe）：
+
+```sh
+python3 scripts/fetch_wofo.py
+python3 scripts/import_wofo.py .import-runtime/source/raw.json
+python3 scripts/cache_media.py
+python3 verify_site.py
+```
+
+原始下载及检查报告保存在被 Git 忽略的 `.import-runtime/`，不会随网站发布。
