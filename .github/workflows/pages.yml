@@ -33,6 +33,17 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
+      - name: Wait for artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in {1..12}; do
+            count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" --jq '[.artifacts[] | select(.name == "github-pages" and .expired == false)] | length')
+            if [ "$count" -gt 0 ]; then exit 0; fi
+            sleep 5
+          done
+          echo "Uploaded Pages artifact metadata did not become available"
+          exit 1
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v4
